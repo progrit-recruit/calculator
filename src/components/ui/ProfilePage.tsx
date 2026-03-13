@@ -393,7 +393,7 @@ export default function ProfilePage({ artistId, onBack, onNavigateToArtwork, onN
           artistHandle={artist.handle}
           onClose={() => setSelectedVideoIndex(null)}
           onNavigateToArtwork={(id) => { setSelectedVideoIndex(null); onNavigateToArtwork(id); }}
-          onNavigateToCheckout={(id) => { setSelectedVideoIndex(null); onNavigateToCheckout(id); }}
+          onNavigateToCheckout={(id) => { setSelectedVideoIndex(null); onNavigateToCheckout?.(id); }}
         />
       )}
 
