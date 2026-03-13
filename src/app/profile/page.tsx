@@ -10,6 +10,7 @@ export default function Profile() {
       artistId={1}
       onBack={() => router.push("/")}
       onNavigateToArtwork={() => router.push("/")}
+      onNavigateToCheckout={() => router.push("/")}
     />
   );
 }
