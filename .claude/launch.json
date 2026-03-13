@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "/Users/progritjinji003/.nvm/versions/node/v22.22.1/bin/node",
+      "runtimeArgs": ["/Users/progritjinji003/Desktop/progrit0003/.claude/start-dev.js"],
+      "port": 3000
+    }
+  ]
+}
