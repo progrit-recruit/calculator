@@ -7,7 +7,7 @@ interface ProfilePageProps {
   artistId: number;
   onBack: () => void;
   onNavigateToArtwork: (artworkId: number) => void;
-  onNavigateToCheckout: (artworkId: number) => void;
+  onNavigateToCheckout?: (artworkId: number) => void;
 }
 
 function formatNumber(n: number): string {
